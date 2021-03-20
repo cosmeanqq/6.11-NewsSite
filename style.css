@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-color: grey;
+  background: url(https://unsplash.com/photos/6vBmT14TCjU/download?force=true)
+    bottom no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
