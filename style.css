@@ -80,3 +80,15 @@ article img {
   height: 300px;
   object-fit: cover;
 }
+
+.news:nth-of-type(even) {
+  background-color: rgb(47, 135, 161);
+  color: azure;
+}
+
+.header2::before {
+  color: blue;
+  content: "New";
+  margin-right: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
